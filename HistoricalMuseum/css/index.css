@@ -60,14 +60,17 @@ body {
     display: none;
 }
 
-#openingText1 {
-    font-size: 72px;
+.openingText1 {
+    color: #252279;
+    font-size: 96px;
     font-weight: 600;
-    text-shadow: -1px 1px 3px #252279, 1px 1px 3px #252279, 1px -1px 3px #252279, -1px -1px 3px #252279;
 }
 
-#openingText2 {
-    font-size: 32px;
+
+#grandOpeningText {
+    font-size: 165px;
+    font-weight: 900;
+    text-shadow: -4px 8px 2px rgba(37, 34, 121, 1);
 }
 
 #facebookLink {
@@ -75,8 +78,7 @@ body {
     color: #DA9D28;
     font-size: 32px;
     text-decoration: underline;
-    text-shadow: -1px 1px 3px #252279, 1px 1px 3px #252279, 1px -1px 3px #252279, -1px -1px 3px #252279;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .container {
@@ -100,6 +102,10 @@ body {
 .introContent {
     text-align: center;
     color: #DA9D28;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #252279;
+    background-color: #CCCCCC;
 }
 
 h1 {
@@ -187,6 +193,18 @@ span.fa-facebook-square {
 
     #openingText2 {
         font-size: 32px;
+    }
+
+    .openingText1 {
+        color: #252279;
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    #grandOpeningText {
+        font-size: 96px;
+        font-weight: 900;
+        text-shadow: -4px 6px 2px rgba(37, 34, 121, 1);
     }
 
     p {
